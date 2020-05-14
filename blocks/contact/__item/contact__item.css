@@ -1,0 +1,56 @@
+.contact__item {
+  height: 60px;
+  border: 0;
+  box-sizing: border-box;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  padding: 0;
+  padding-left: 31px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.contact__item:focus {
+  outline-color: #333333;
+  background: #ebe7e7;
+}
+
+.contact__item::placeholder {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+}
+
+.contact__item::-webkit-input-placeholder {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+}
+
+.contact__item::-moz-placeholder {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+}
+
+.contact__item::-ms-input-placeholder {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+}

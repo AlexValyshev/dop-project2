@@ -1,0 +1,23 @@
+@import url(./__address/footer__address.css);
+@import url(./__text/footer__text.css);
+@import url(./__copyright/footer__copyright.css);
+@import url(./__links/footer__links.css);
+@import url(./__links-list/footer__links-list.css);
+@import url(./__link/footer__link.css);
+@import url(./__social-icons/footer__social-icons.css);
+@import url(./__mail/footer__mail.css);
+@import url(./__tel/footer__tel.css);
+@import url(./__social-icons-list/footer__social-icons-list.css);
+@import url(./__social-icon/footer__social-icon.css);
+@import url(./__image/footer__image.css);
+@import url(./__image-card/footer__image-card.css);
+
+.footer {
+  box-sizing: border-box;
+  padding-top: 85px;
+  padding-bottom: 86px;
+  background: #fafafa;
+  display: flex;
+  position: relative;
+
+}

@@ -1,0 +1,14 @@
+.features__text {
+    width: 229px;
+    height: 57px;
+    margin: 0;
+    margin-bottom: 5px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #101010;
+    /*border: 1px solid blue;*/
+}

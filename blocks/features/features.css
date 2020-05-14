@@ -1,0 +1,17 @@
+@import url(./__cards/features__cards.css);
+@import url(./__card/features__card.css);
+@import url(./__image/features__image.css);
+@import url(./__card-description/features__card-description.css);
+@import url(./__text/features__text.css);
+@import url(./__link/features__link.css);
+
+.features {
+  box-sizing: border-box;
+  padding-top: 63px;
+  padding-bottom: 124px;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ /* border: 1px solid blue;*/
+}

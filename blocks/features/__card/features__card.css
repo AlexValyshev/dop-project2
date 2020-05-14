@@ -1,0 +1,14 @@
+.features__card {
+  list-style: none;
+  width: 350px;
+  margin: 0;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*border: 1px solid blue;*/
+}
+
+.features__card:last-child {
+  margin-right: 0;
+}

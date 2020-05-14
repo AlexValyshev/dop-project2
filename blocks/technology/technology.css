@@ -1,0 +1,19 @@
+@import url(./__cards/technology__cards.css);
+@import url(./__card/technology__card.css);
+@import url(./__number/technology__number.css);
+@import url(./__image-cloud/technology__image-cloud.css);
+@import url(./__image-secury/technology__image-secury.css);
+@import url(./__image-pdf/technology__image-pdf.css);
+@import url(./__image-csv/technology__image-csv.css);
+@import url(./__text/technology__text.css);
+
+.technology {
+  box-sizing: border-box;
+  padding-top: 63px;
+  padding-bottom: 104px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*border: 1px solid blue;*/
+}

@@ -1,0 +1,12 @@
+@import url(./_place/heading_place_features.css);
+@import url(./_place/heading_place_technology.css);
+@import url(./_place/heading_place_footer.css);
+
+.heading {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #101010;
+}

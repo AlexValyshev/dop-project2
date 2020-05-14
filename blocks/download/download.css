@@ -1,0 +1,17 @@
+@import url(./__left/download__left.css);
+@import url(./__right/download__right.css);
+@import url(./__icons/download__icons.css);
+@import url(./__icon/download__icon.css);
+@import url(./__icon-style1/download__icon-style1.css);
+@import url(./__icon-style2/download__icon-style2.css);
+@import url(./__image/download__image.css);
+@import url(./__image/_style/download__image_style_width.css);
+@import url(./__image/_style/download__image_style_opacity1.css);
+@import url(./__image/_style/download__image_style_opacity2.css);
+
+.download {
+  box-sizing: border-box;
+  /*border: 1px solid blue;*/
+  background: #ED4C5C;
+  display: flex;
+}

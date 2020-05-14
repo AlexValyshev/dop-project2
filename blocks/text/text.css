@@ -1,0 +1,14 @@
+@import url(./_place/text_place_video.css);
+@import url(./_place/text_place_download.css);
+@import url(./_place/text_place_contact.css);
+
+.text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: justify;
+  /*border: 1px solid blue;*/
+  box-sizing: border-box;
+}

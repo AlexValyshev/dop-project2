@@ -1,0 +1,10 @@
+.download__icons {
+  width: 134px;
+  height: 32px;
+  margin: 0;
+  margin-bottom: 111px;
+  padding-left: 0;
+  /*border: 1px solid blue;*/
+  display: flex;
+  justify-content: space-between;
+}

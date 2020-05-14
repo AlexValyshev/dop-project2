@@ -1,0 +1,13 @@
+@import url(./_place/link_color_white.css);
+@import url(./_place/link_place_download.css);
+@import url(./_place/link_place_footer.css);
+@import url(./_place/link_place_footer-icon.css);
+
+.link {
+  text-decoration: none;
+  /*vertical-align: super;*/
+}
+
+.link:hover {
+  color: #2f80ed;
+}

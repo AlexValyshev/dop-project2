@@ -1,0 +1,13 @@
+.video__link {
+  /*border: 1px solid blue;*/
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: justify;
+  color: #ED4C5C;
+  position: absolute;
+  bottom: 110px;
+  left: 165px;
+}

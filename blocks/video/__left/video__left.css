@@ -1,0 +1,8 @@
+.video__left {
+  box-sizing: border-box;
+  /*border: 1px solid blue;*/
+  padding-top: 140px;
+  padding-left: 165px;
+  position: relative;
+
+}

@@ -1,0 +1,9 @@
+.download__icon {
+  list-style: none;
+  /*border: 1px solid blue;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+}

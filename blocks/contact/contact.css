@@ -1,0 +1,16 @@
+@import url(./__left/contact__left.css);
+@import url(./__form/contact__form.css);
+@import url(./__item/contact__item.css);
+@import url(./__item/_text/contact__item_text_first-name.css);
+@import url(./__item/_text/contact__item_text_last-name.css);
+@import url(./__item/_text/contact__item_text_tel.css);
+@import url(./__item/_text/contact__item_text_select-service.css);
+
+.contact {
+  box-sizing: border-box;
+  padding-top: 117px;
+  padding-left: 176px;
+  background: #ffffff;
+  display: flex;
+  /*border: 1px solid blue;*/
+}

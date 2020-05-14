@@ -1,0 +1,13 @@
+@import url(./_place/logo_place_header.css);
+@import url(./__heading/logo__heading.css);
+@import url(./__image/logo__image.css);
+
+.logo {
+  width: 172px;
+  height: 29px;
+  /*border: 1px solid blue;*/
+  display: flex;
+  align-items: center;
+
+}
+

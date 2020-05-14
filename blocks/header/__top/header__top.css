@@ -1,0 +1,10 @@
+.header__top {
+  height: 100px;
+  box-sizing: border-box;
+  padding-top: 3px;
+  padding-left: 165px;
+  margin-bottom: 140px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}

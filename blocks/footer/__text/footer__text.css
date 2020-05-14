@@ -1,0 +1,11 @@
+.footer__text {
+  margin: 0;
+  margin-bottom: 141px;
+  /*border: 1px solid blue;*/
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #101010;
+}

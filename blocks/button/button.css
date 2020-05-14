@@ -1,0 +1,17 @@
+@import url(./_place/button_place_header.css);
+@import url(./_place/button_place_center.css);
+@import url(./_place/button_place_form.css);
+@import url(./__text/button__text.css);
+@import url(./__text/_place/button__text_place_nav.css);
+@import url(./__text/_place/button__text_place_center.css);
+@import url(./__text/_place/button__text_place_form.css);
+
+
+.button {
+  box-sizing: border-box;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*border: 1px solid blue;*/
+}

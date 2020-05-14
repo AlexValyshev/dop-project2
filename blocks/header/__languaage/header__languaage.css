@@ -1,0 +1,20 @@
+.header__languaage {
+  /*border: 1px solid blue;*/
+  border: none;
+  width: 53px;
+  height: 32px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+
+
+

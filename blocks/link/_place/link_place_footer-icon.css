@@ -1,0 +1,13 @@
+.link_place_footer-icon {
+  display: flex;
+  width: 13px;
+  height: 13px;
+  align-items: center;
+  justify-content: center;
+}
+
+.link_place_footer-icon:hover {
+  background: #2f80ed;
+  display: flex;
+  }
+}

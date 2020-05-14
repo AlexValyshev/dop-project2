@@ -1,0 +1,11 @@
+@import url(./__left/video__left.css);
+@import url(./__right/video__right.css);
+@import url(./__link/video__link.css);
+@import url(./__play/video__play.css);
+@import url(./__image/video__image.css);
+
+.video {
+  /*border: 1px solid blue;*/
+  background: #ffffff;
+  display: flex;
+}

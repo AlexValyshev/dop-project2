@@ -1,0 +1,13 @@
+.features__link {
+  height: 18px;
+  width: 253px;
+  margin-bottom: 25px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #ED4C5C;
+  /*border: 1px solid blue;*/
+}

@@ -1,0 +1,13 @@
+.link_place_download {
+  display: flex;
+  width: 31px;
+  height: 31px;
+  align-items: center;
+  justify-content: center;
+}
+
+.link_place_download:hover {
+  background: #2f80ed;
+  display: flex;
+ /* box-shadow: 0 5px 10px #2f80ed;*/
+  }
