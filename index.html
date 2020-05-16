@@ -160,24 +160,31 @@
             get back to you within 24 hours</p>
         </div>
         <form class="contact__form">
-          <label for="first-name" class="form__label"></label>
-          <input class="contact__item contact__item_text_first-name" type="text" id="first-name" name="first-name"
-            placeholder="First Name">
-          <label for="last-name" class="form__label"></label>
-          <input class="contact__item contact__item_text_last-name" type="text" id="last-name" name="last-name"
-            placeholder="Last Name">
-          <label for="tel" class="form__label"></label>
-          <input class="contact__item contact__item_text_tel" type="tel" id="tel" name="tel" placeholder="Phone Number">
-          <label for="select-service" class="contact__label"></label>
-          <select class="contact__item contact__item_text_select-service" onchange="this.style.color='black'"
-            id="select-service" name="select-service">
-            <option value="" selected hidden>Select Service</option>
-            <option value="cloud">cloud</option>
-            <option value="secury">secury</option>
-            <option value="pdf">pdf</option>
-            <option value="csv">csv</option>
-          </select>
-          <input class="button button_place_form button__text button__text_place_form" type="submit">
+          <fieldset class="contact__form-name">
+            <label for="first-name" class="contact__label"></label>
+            <input class="contact__item contact__item_text_first-name" type="text" id="first-name" name="first-name"
+              placeholder="First Name">
+            <label for="last-name" class="contact__label"></label>
+            <input class="contact__item contact__item_text_last-name" type="text" id="last-name" name="last-name"
+              placeholder="Last Name">
+          </fieldset>
+          <fieldset class="contact__form-communication">
+            <label for="tel" class="contact__label"></label>
+            <input class="contact__item contact__item_text_tel" type="tel" id="tel" name="tel"
+              placeholder="Phone Number">
+          </fieldset>
+          <fieldset class="contact__form-select">
+            <label for="select-service" class="contact__label"></label>
+            <select class="contact__select contact__select_widht_large" id="select-service" name="select-service">
+              <option class="contact__option" value="" selected>Select Service</option>
+              <option class="contact__option" value="cloud">Cloud</option>
+              <option class="contact__option" value="secury">Secury</option>
+              <option class="contact__option" value="pdf">PDF</option>
+              <option class="contact__option" value="csv">CSV</option>
+            </select>
+          </fieldset>
+          <button class="button button_place_form button__text button__text_place_form" type="submit">Submit
+            Now</button>
         </form>
       </section>
     </main>
@@ -217,4 +224,5 @@
     </footer>
   </div>
 </body>
+
 </html>

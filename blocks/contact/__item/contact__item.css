@@ -1,11 +1,12 @@
 .contact__item {
   height: 60px;
+  padding: 0;
+  padding-left: 31px;
+  margin: 0;
   border: 0;
   box-sizing: border-box;
   border: 1px solid #333333;
   border-radius: 6px;
-  padding: 0;
-  padding-left: 31px;
   font-family: 'Lato';
   font-style: normal;
   font-weight: normal;
@@ -20,36 +21,24 @@
 }
 
 .contact__item::placeholder {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 19px;
   color: rgba(19, 39, 67, 0.5);
 }
 
 .contact__item::-webkit-input-placeholder {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 19px;
   color: rgba(19, 39, 67, 0.5);
 }
 
 .contact__item::-moz-placeholder {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 19px;
   color: rgba(19, 39, 67, 0.5);
 }
 
 .contact__item::-ms-input-placeholder {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 19px;
   color: rgba(19, 39, 67, 0.5);

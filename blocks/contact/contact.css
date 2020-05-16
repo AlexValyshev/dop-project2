@@ -1,10 +1,15 @@
 @import url(./__left/contact__left.css);
 @import url(./__form/contact__form.css);
+@import url(./__form-name/contact__form-name.css);
+@import url(./__form-communication/contact__form-communication.css);
+@import url(./__form-select/contact__form-select.css);
 @import url(./__item/contact__item.css);
 @import url(./__item/_text/contact__item_text_first-name.css);
 @import url(./__item/_text/contact__item_text_last-name.css);
 @import url(./__item/_text/contact__item_text_tel.css);
-@import url(./__item/_text/contact__item_text_select-service.css);
+@import url(./__select/contact__select.css);
+@import url(./__select/_widht/contact__select_widht_large.css);
+@import url(./__option/contact__option.css);
 
 .contact {
   box-sizing: border-box;
