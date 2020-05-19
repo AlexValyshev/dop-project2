@@ -1,6 +1,6 @@
 .features__text {
     width: 229px;
-    height: 57px;
+    min-height: 57px;
     margin: 0;
     margin-bottom: 5px;
     font-family: 'Lato';

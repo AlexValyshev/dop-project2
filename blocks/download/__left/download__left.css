@@ -1,6 +1,6 @@
 .download__left {
-  padding-top: 122px;
-  padding-left: 165px;
   display: flex;
   flex-direction: column;
+  margin-right: 81px;
+  margin-top: 28px;
 }

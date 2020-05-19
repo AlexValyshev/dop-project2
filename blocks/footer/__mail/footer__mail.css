@@ -1,4 +1,5 @@
 .footer__mail {
+  display: inline-block;
   margin: 0;
   margin-bottom: 11px;
   font-family: Lato;

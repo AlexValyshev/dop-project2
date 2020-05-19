@@ -11,6 +11,7 @@
 @import url(./__social-icon/footer__social-icon.css);
 @import url(./__image/footer__image.css);
 @import url(./__image-card/footer__image-card.css);
+@import url(./__support/footer__support.css);
 
 .footer {
   box-sizing: border-box;

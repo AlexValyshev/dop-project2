@@ -12,12 +12,15 @@
 
 .header {
   background: url(../../images/Noutbock.png), #c4c4c4;
+  background-repeat: no-repeat;
+  background-size: cover;
   /*background: #3cb0ce;*/
-  height: 782px;
+  height: 55%;
   width: 100%;
   position: relative;
   box-sizing: border-box;
   padding-top: 17px;
+  padding-bottom: 187px;
   display: flex;
   align-items: center;
   flex-direction: column;

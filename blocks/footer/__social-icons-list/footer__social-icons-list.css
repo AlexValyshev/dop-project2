@@ -2,7 +2,5 @@
     margin: 0;
     padding-left: 0;
     display: flex;
-    width: 66px;
-    justify-content: space-between;
     /*border: 1px solid blue;*/
 }

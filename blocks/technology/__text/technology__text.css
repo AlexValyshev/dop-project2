@@ -1,5 +1,5 @@
 .technology__text {
-  height: 51px;
+  min-height: 51px;
   width: 191px;
   margin: 0;
   margin-bottom: 4px;

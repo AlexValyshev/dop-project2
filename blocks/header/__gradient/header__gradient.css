@@ -1,5 +1,5 @@
 .header__gradient {
-  height: 782px;
+  height: 100%;
   width: inherit;
   background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
   position: absolute;

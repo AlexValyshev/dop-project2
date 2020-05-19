@@ -1,0 +1,4 @@
+.footer__support {
+  display: flex;
+  flex-direction: column;
+}

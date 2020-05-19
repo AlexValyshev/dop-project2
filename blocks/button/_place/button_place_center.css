@@ -2,5 +2,11 @@
   width: 160px;
   height: 50px;
   background: #FFFFFF;
+  font-weight: 600;
+  color: #ED4C5C;
   z-index: 1;
+  cursor: pointer;
+}
+.button_place_center:hover {
+  color: #2f80ed;
 }

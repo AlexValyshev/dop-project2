@@ -1,5 +1,6 @@
 .footer__social-icon {
   list-style: none;
   height: 14px;
+  margin-right: 12px;
   /*border: 1px solid blue;*/
 }

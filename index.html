@@ -39,16 +39,12 @@
             <option class="header__color">zh</option>
           </select>
         </div>
-        <div class="button button_place_header">
-          <a class="link button__text button__text_place_nav" href="#">login</a>
-        </div>
+        <button class="button button_place_header">login</button>
       </div>
       <h1 class="header__title">cloudbudget</h1>
       <p class="header__text">Cloud budget management for everyone. Only €69.95 a Month After a 7 Day Trial of<br>
         Up to €4.99</p>
-      <div class="button button_place_center">
-        <a class="link button__text button__text_place_center" href="#">Sign Up</a>
-      </div>
+      <button class="button button_place_center">Sign Up</button>
     </header>
 
     <main class="content">
@@ -63,7 +59,7 @@
           <a class="link video__link" href="#">Learn More</a>
         </div>
         <div class="video__right">
-          <p class="video__play"></p>
+          <div class="video__play"></div>
           <img class="video__image" src="./images/Video_bg.png" alt="Видео">
         </div>
       </section>
@@ -183,7 +179,7 @@
               <option class="contact__option" value="csv">CSV</option>
             </select>
           </fieldset>
-          <button class="button button_place_form button__text button__text_place_form" type="submit">Submit
+          <button class="button button_place_form" type="submit">Submit
             Now</button>
         </form>
       </section>
@@ -196,20 +192,22 @@
           1090 Picosia USA</p>
         <p class="footer__copyright">Copyright 2018 CloudBudget</p>
       </div>
-      <nav class="footer__links">
+      <div class="footer__links">
         <h3 class="heading heading_place_footer">Services</h3>
-        <ul class="footer__links-list">
-          <li class="footer__link"><a class="link link_place_footer" href="#">overview</a></li>
-          <li class="footer__link"><a class="link link_place_footer" href="#">features</a></li>
-          <li class="footer__link"><a class="link link_place_footer" href="#">technology</a></li>
-          <li class="footer__link"><a class="link link_place_footer" href="#">Terms & Conditions</a></li>
-          <li class="footer__link"><a class="link link_place_footer" href="#">Privecy</a></li>
-        </ul>
-      </nav>
-      <nav class="footer__social-icons">
+        <nav class="footer_nav">
+          <ul class="footer__links-list">
+            <li class="footer__link"><a class="link link_place_footer" href="#">overview</a></li>
+            <li class="footer__link"><a class="link link_place_footer" href="#">features</a></li>
+            <li class="footer__link"><a class="link link_place_footer" href="#">technology</a></li>
+            <li class="footer__link"><a class="link link_place_footer" href="#">Terms & Conditions</a></li>
+            <li class="footer__link"><a class="link link_place_footer" href="#">Privecy</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__social-icons">
         <h3 class="heading heading_place_footer">Get in Touch</h3>
-        <p class="footer__mail">info@cloudbudget.com</p>
-        <p class="footer__tel">+1 844-721-7120</p>
+        <a class="link footer__mail" href="mailto:info@cloudbudget.com">info@cloudbudget.com</a>
+        <a class="link footer__tel" href="tel:+18447217120">+1 844-721-7120</a>
         <ul class="footer__social-icons-list">
           <li class="footer__social-icon"><a class="link link_place_footer-icon" href="#"><img class="footer__image"
                 src="./images/social-icon/feather-facebook.svg" alt="Лого"></a></li>
@@ -218,9 +216,11 @@
           <li class="footer__social-icon"><a class="link link_place_footer-icon" href="#"><img class="footer__image"
                 src="./images/social-icon/feather-twitter.svg" alt="Лого"></a></li>
         </ul>
-      </nav>
-      <h3 class="heading heading_place_footer">We Support</h3>
-      <img class="footer__image-card" src="./images/secure.png" alt="Платежные системы">
+      </div>
+      <div class="footer__support">
+        <h3 class="heading heading_place_footer">We Support</h3>
+        <img class="footer__image-card" src="./images/secure.png" alt="Платежные системы">
+      </div>
     </footer>
   </div>
 </body>

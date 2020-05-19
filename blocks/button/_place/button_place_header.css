@@ -2,5 +2,14 @@
   width: 100px;
   height: 40px;
   border: 1px solid #FFFFFF;
-  margin-right: 168px;
+  font-weight: normal;
+  text-align: center;
+  color: #FFFFFF;
+  background: transparent;
+  cursor: pointer;
+  /*margin-right: 168px;*/
+}
+
+.button_place_header:hover {
+  color: #2f80ed;
 }
