@@ -1,6 +1,7 @@
 @import url(./__left/contact__left.css);
 @import url(./__form/contact__form.css);
 @import url(./__form-name/contact__form-name.css);
+@import url(./__label/contact__label.css);
 @import url(./__form-communication/contact__form-communication.css);
 @import url(./__form-select/contact__form-select.css);
 @import url(./__item/contact__item.css);
@@ -12,11 +13,13 @@
 @import url(./__option/contact__option.css);
 
 .contact {
+  width: 100%;
   box-sizing: border-box;
-  padding-top: 117px;
-  padding-left: 176px;
-  padding-bottom: 78px;
+  padding-top: calc(100% - (100% - (117/1440)*100%));
+  padding-bottom: calc(100% - (100% - (78/1440)*100%));
+  margin-bottom: calc(100% - (100% - (45/1440)*100%));
   background: #ffffff;
   display: flex;
+  justify-content: flex-end;
   /*border: 1px solid blue;*/
 }

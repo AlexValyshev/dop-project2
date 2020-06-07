@@ -5,10 +5,26 @@
 @import url(./_place/title_place_contact.css);
 
 .title {
-  font-family: 'Lato';
+  max-width: 445px;
+  font-family: 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
+  font-weight: 600;
   font-style: normal;
   font-size: 36px;
   line-height: 43px;
   box-sizing: border-box;
   /*border: 1px solid blue;*/
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .title {
+    max-width: 370px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .title {
+  max-width: 288px;
+  font-size: 24px;
+  line-height: 30px;
+  }
 }

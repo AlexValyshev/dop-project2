@@ -1,5 +1,6 @@
 .contact__form-communication {
-  width: 545px;
+  max-width: 540px;
+  width: 100%;
   border: none;
   margin: 0;
   padding: 0;

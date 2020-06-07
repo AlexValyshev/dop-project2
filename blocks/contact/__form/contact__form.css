@@ -1,5 +1,7 @@
 .contact__form {
-  width: 540px;
+  max-width: calc((540/1110)*100%);
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
 }

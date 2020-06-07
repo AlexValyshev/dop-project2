@@ -1,6 +1,8 @@
 .video__image {
-  width: 445px;
-  height: 311px;
+  max-width: calc(100% - 33px);
+  width: 100%;
+  margin-left: -33px;
+  /*height: 311px;*/
   background: #C4C4C4;
   border-radius: 15px;
 }

@@ -1,9 +1,11 @@
 .technology__image-secury {
   width: 66px;
-  height: 66px;
-  margin: 0;
-  position: absolute;
+  /*height: 66px;*/
+  margin: 0 auto;
+  margin-top: -55px;
+  margin-bottom: 8px;
+  /* position: absolute;
   top: 65px;
-  left: 94px;
-  /*border: 1px solid blue;*/
+  left: 94px; */
+  /* border: 1px solid blue; */
 }

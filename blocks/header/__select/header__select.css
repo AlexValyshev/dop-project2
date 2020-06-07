@@ -1,8 +1,8 @@
 .header__select {
-  width: 96px;
-  height: 32px;
-  margin-right: 20px;
+  /*width: 96px;*/
+  flex-grow: 0.42;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-end;
   /*border: 1px solid blue;*/
 }

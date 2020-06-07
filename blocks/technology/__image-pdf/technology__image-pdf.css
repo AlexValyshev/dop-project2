@@ -1,9 +1,11 @@
 .technology__image-pdf {
   width: 70px;
-  height: 70px;
-  margin: 0;
-  position: absolute;
+  /*height: 70px;*/
+  margin: 0 auto;
+  margin-top: -59px;
+  margin-bottom: 8px;
+  /* position: absolute;
   top: 61px;
-  left: 93px;
-  /*border: 1px solid blue;*/
+  left: 93px; */
+  /* border: 1px solid blue; */
 }

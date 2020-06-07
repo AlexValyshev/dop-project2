@@ -13,3 +13,10 @@
 .button_place_header:hover {
   color: #2f80ed;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .button_place_header {
+    width: 70px;
+    height: 30px;
+  }
+}

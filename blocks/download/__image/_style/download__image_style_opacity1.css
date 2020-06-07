@@ -1,6 +1,7 @@
 .download__image_style_opacity1 {
-  width: 383px;
-  height: 267px;
+  max-width: calc((383/533)*100%);
+  margin-right: calc((-339/533)*100%);
   opacity: 0.5;
   z-index: 2;
+
 }

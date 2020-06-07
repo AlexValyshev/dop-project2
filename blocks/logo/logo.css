@@ -3,10 +3,9 @@
 @import url(./__image/logo__image.css);
 
 .logo {
-  height: 29px;
   /*border: 1px solid blue;*/
+  flex-grow: 0.58;
   display: flex;
   align-items: center;
-
 }
 

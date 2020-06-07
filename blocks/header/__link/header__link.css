@@ -1,5 +1,5 @@
 .header__link {
-  font-family: "Lato";
+  font-family: 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -7,5 +7,18 @@
   display: flex;
   align-items: center;
   text-transform: uppercase;
+  margin-right: 19px;
+}
+
+.header__link:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header__link {
+  font-size: 10px;
+  line-height: 14px;
+  margin-right: 10px;
+  }
 }
 

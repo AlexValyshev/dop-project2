@@ -1,9 +1,8 @@
 .header__title {
-  width: 578px;
-  height: 86px;
+  max-width: 578px;
   margin: 0;
-  margin-bottom: 39px;
-  font-family: 'Lato';
+  margin-bottom: calc(100% - (100% - (39/1440)*100%));
+  font-family: 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 72px;
@@ -15,4 +14,11 @@
   color: #FFFFFF;
   /*color: black;*/
   z-index: 1;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header__title {
+  font-size: 56px;
+  line-height: 68px;
+  }
 }

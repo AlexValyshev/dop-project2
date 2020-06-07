@@ -1,8 +1,9 @@
+@import url(./__container/page__container.css);
+
 .page {
-  max-width: 1440px;
+  width: 100%;
   background: #FFFFFF;
   margin: 0 auto;
   padding: 0;
-  /*border: 2px solid red;*/
   font-family: 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
 }

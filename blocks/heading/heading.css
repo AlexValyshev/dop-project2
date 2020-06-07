@@ -3,10 +3,17 @@
 @import url(./_place/heading_place_footer.css);
 
 .heading {
-  font-family: 'Lato';
+  font-family: 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
   color: #101010;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .heading {
+    font-size: 14px;
+    line-height: 18px;
+  }
 }

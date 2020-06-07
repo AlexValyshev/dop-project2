@@ -1,14 +1,13 @@
 .technology__number {
-  width: 117px;
-  height: 120px;
+  max-width: 117px;
+  width: 100%;
   margin: 0;
-  margin-bottom: 19px;
-  font-family: 'Lato';
+  font-family: 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 100px;
   line-height: 120px;
   text-align: center;
   color: rgba(16, 16, 16, 0.08);
-  /*border: 1px solid blue;*/
+  /* border: 1px solid blue; */
 }

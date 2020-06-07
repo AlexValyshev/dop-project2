@@ -15,7 +15,7 @@
   <div class="page">
     <header class="header">
       <div class="header__gradient"></div>
-      <div class="header__top">
+      <div class="header__top page__container">
         <div class="logo logo_place_header">
           <img class="logo__image" src="./images/logo/dashicons-cloud.svg" alt="Логотип">
           <p class="logo__heading">cloudbudget</p>
@@ -38,17 +38,17 @@
             <option class="header__color">fr</option>
             <option class="header__color">zh</option>
           </select>
+          <button class="button button_place_header">login</button>
         </div>
-        <button class="button button_place_header">login</button>
       </div>
       <h1 class="header__title">cloudbudget</h1>
-      <p class="header__text">Cloud budget management for everyone. Only €69.95 a Month After a 7 Day Trial of<br>
+      <p class="header__text">Cloud budget management for everyone. Only €69.95 a Month After a 7 Day Trial of
         Up to €4.99</p>
       <button class="button button_place_center">Sign Up</button>
     </header>
 
     <main class="content">
-      <section class="video">
+      <section class="video page__container">
         <div class="video__left">
           <h2 class="title title_place_video">Easy to Use Cloud Budget Management Software</h2>
           <p class="text text_place_video">Our software is made so you can access and manage your budget and expenses
@@ -65,36 +65,38 @@
       </section>
 
       <section class="features">
-        <h2 class="title title_place_features">Features</h2>
-        <ul class="features__cards">
-          <li class="features__card">
-            <img class="features__image" src="./images/Bg1.png" alt="Видео">
-            <div class="features__card-description">
-              <h3 class="heading heading_place_features">Supports All Currencies and Cards</h3>
-              <p class="features__text">We support all popular currencies and is fully customizable to add</p>
-              <a class="link features__link" href="#">Read More</a>
-            </div>
-          </li>
-          <li class="features__card">
-            <img class="features__image" src="./images/Bg2.png" alt="Видео">
-            <div class="features__card-description">
-              <h3 class="heading heading_place_features">Manage your expenses on the go</h3>
-              <p class="features__text">You can access your account from anywhere in the world on any device</p>
-              <a class="link features__link" href="#">Read More</a>
-            </div>
-          </li>
-          <li class="features__card">
-            <img class="features__image" src="./images/Bg3.png" alt="Видео">
-            <div class="features__card-description">
-              <h3 class="heading heading_place_features">Cloud Budget Management Software</h3>
-              <p class="features__text">Our software is made so you can access and manage your budget</p>
-              <a class="link features__link" href="#">Read More</a>
-            </div>
-          </li>
-        </ul>
+        <div class="page__container">
+          <h2 class="title title_place_features">Features</h2>
+          <ul class="features__cards">
+            <li class="features__card">
+              <img class="features__image" src="./images/Bg1.jpg" alt="Видео">
+              <div class="features__card-description">
+                <h3 class="heading heading_place_features">Supports All Currencies and Cards</h3>
+                <p class="features__text">We support all popular currencies and is fully customizable to add</p>
+                <a class="link features__link" href="#">Read More</a>
+              </div>
+            </li>
+            <li class="features__card">
+              <img class="features__image" src="./images/Bg2.jpg" alt="Видео">
+              <div class="features__card-description">
+                <h3 class="heading heading_place_features">Manage your expenses on the go</h3>
+                <p class="features__text">You can access your account from anywhere in the world on any device</p>
+                <a class="link features__link" href="#">Read More</a>
+              </div>
+            </li>
+            <li class="features__card">
+              <img class="features__image" src="./images/Bg3.jpg" alt="Видео">
+              <div class="features__card-description">
+                <h3 class="heading heading_place_features">Cloud Budget Management Software</h3>
+                <p class="features__text">Our software is made so you can access and manage your budget</p>
+                <a class="link features__link" href="#">Read More</a>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <section class="technology">
+      <section class="technology page__container">
         <h2 class="title title_place_technology">Technology</h2>
         <ul class="technology__cards">
           <li class="technology__card">
@@ -125,30 +127,33 @@
       </section>
 
       <section class="download">
-        <div class="download__left">
-          <h2 class="title title_place_download">Stay focused on saving money</h2>
-          <p class="text text_place_download">It is important to stay focused on saving money in any way you can. We
-            help
-            you monitor your spending habits so you can easily spot and cut any unnecessary expenses. Simply join today
-            to
-            get started!</p>
-          <ul class="download__icons">
-            <li class="download__icon"><a class="link link_place_download" href="#"><img class="download__icon-style1"
-                  src="./images/icons/ion-logo-google-playstore.svg" alt="Иконка"></a></li>
-            <li class="download__icon"><a class="link link_place_download" href="#"><img class="download__icon-style1"
-                  src="./images/icons/ion-logo-apple-appstore.svg" alt="Иконка"></a></li>
-            <li class="download__icon"><a class="link link_place_download" href="#"><img class="download__icon-style2"
-                  src="./images/icons/simple-icons_windows.svg" alt="Иконка"></a></li>
-          </ul>
-        </div>
-        <div class="download__right">
-          <img class="download__image download__image_style_opacity1" src="./images/Video_bg2.png" alt="Видео">
-          <img class="download__image download__image_style_width" src="./images/Video_bg1.png" alt="Видео">
-          <img class="download__image download__image_style_opacity2" src="./images/Video_bg3.png" alt="Видео">
+        <div class="download__container page__container">
+          <div class="download__left">
+            <h2 class="title title_place_download">Stay focused on saving money</h2>
+            <p class="text text_place_download">It is important to stay focused on saving money in any way you can. We
+              help
+              you monitor your spending habits so you can easily spot and cut any unnecessary expenses. Simply join
+              today
+              to
+              get started!</p>
+            <ul class="download__icons">
+              <li class="download__icon"><a class="link link_place_download" href="#"><img class="download__icon-style1"
+                    src="./images/icons/ion-logo-google-playstore.svg" alt="Иконка"></a></li>
+              <li class="download__icon"><a class="link link_place_download" href="#"><img class="download__icon-style1"
+                    src="./images/icons/ion-logo-apple-appstore.svg" alt="Иконка"></a></li>
+              <li class="download__icon"><a class="link link_place_download" href="#"><img class="download__icon-style2"
+                    src="./images/icons/simple-icons_windows.svg" alt="Иконка"></a></li>
+            </ul>
+          </div>
+          <div class="download__right">
+            <img class="download__image download__image_style_opacity1" src="./images/Video_bg2.png" alt="Видео">
+            <img class="download__image download__image_style_width" src="./images/Video_bg1.png" alt="Видео">
+            <img class="download__image download__image_style_opacity2" src="./images/Video_bg3.png" alt="Видео">
+          </div>
         </div>
       </section>
 
-      <section class="contact">
+      <section class="contact page__container">
         <div class="contact__left">
           <h2 class="title title_place_contact">Contact</h2>
           <p class="text text_place_contact">Questions or concerns? Just fill out the form below and our support team
@@ -185,41 +190,45 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer__address">
-        <h3 class="heading heading_place_footer">Address</h3>
-        <p class="footer__text">Pipang Ltd, Griva Digeni,<br>
-          81-83 Jacovides Tower, 1st Floor<br>
-          1090 Picosia USA</p>
-        <p class="footer__copyright">Copyright 2018 CloudBudget</p>
-      </div>
-      <div class="footer__links">
-        <h3 class="heading heading_place_footer">Services</h3>
-        <nav class="footer_nav">
-          <ul class="footer__links-list">
-            <li class="footer__link"><a class="link link_place_footer" href="#">overview</a></li>
-            <li class="footer__link"><a class="link link_place_footer" href="#">features</a></li>
-            <li class="footer__link"><a class="link link_place_footer" href="#">technology</a></li>
-            <li class="footer__link"><a class="link link_place_footer" href="#">Terms & Conditions</a></li>
-            <li class="footer__link"><a class="link link_place_footer" href="#">Privecy</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="footer__social-icons">
-        <h3 class="heading heading_place_footer">Get in Touch</h3>
-        <a class="link footer__mail" href="mailto:info@cloudbudget.com">info@cloudbudget.com</a>
-        <a class="link footer__tel" href="tel:+18447217120">+1 844-721-7120</a>
-        <ul class="footer__social-icons-list">
-          <li class="footer__social-icon"><a class="link link_place_footer-icon" href="#"><img class="footer__image"
-                src="./images/social-icon/feather-facebook.svg" alt="Лого"></a></li>
-          <li class="footer__social-icon"><a class="link link_place_footer-icon" href="#"><img class="footer__image"
-                src="./images/social-icon/feather-linkedin.svg" alt="Лого"></a></li>
-          <li class="footer__social-icon"><a class="link link_place_footer-icon" href="#"><img class="footer__image"
-                src="./images/social-icon/feather-twitter.svg" alt="Лого"></a></li>
-        </ul>
-      </div>
-      <div class="footer__support">
-        <h3 class="heading heading_place_footer">We Support</h3>
-        <img class="footer__image-card" src="./images/secure.png" alt="Платежные системы">
+      <div class="page__container">
+        <div class="footer__container ">
+          <div class="footer__address">
+            <h3 class="heading heading_place_footer">Address</h3>
+            <p class="footer__text">Pipang Ltd, Griva Digeni,<br>
+              81-83 Jacovides Tower, 1st Floor<br>
+              1090 Picosia USA</p>
+          </div>
+          <div class="footer__links">
+            <h3 class="heading heading_place_footer">Services</h3>
+            <nav class="footer_nav">
+              <ul class="footer__links-list">
+                <li class="footer__link"><a class="link link_place_footer" href="#">overview</a></li>
+                <li class="footer__link"><a class="link link_place_footer" href="#">features</a></li>
+                <li class="footer__link"><a class="link link_place_footer" href="#">technology</a></li>
+                <li class="footer__link"><a class="link link_place_footer" href="#">Terms & Conditions</a></li>
+                <li class="footer__link"><a class="link link_place_footer" href="#">Privecy</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__social-icons">
+            <h3 class="heading heading_place_footer">Get in Touch</h3>
+            <a class="link footer__mail" href="mailto:info@cloudbudget.com">info@cloudbudget.com</a>
+            <a class="link footer__tel" href="tel:+18447217120">+1 844-721-7120</a>
+            <ul class="footer__social-icons-list">
+              <li class="footer__social-icon"><a class="link link_place_footer-icon" href="#"><img class="footer__image"
+                    src="./images/social-icon/feather-facebook.svg" alt="Лого"></a></li>
+              <li class="footer__social-icon"><a class="link link_place_footer-icon" href="#"><img class="footer__image"
+                    src="./images/social-icon/feather-linkedin.svg" alt="Лого"></a></li>
+              <li class="footer__social-icon"><a class="link link_place_footer-icon" href="#"><img class="footer__image"
+                    src="./images/social-icon/feather-twitter.svg" alt="Лого"></a></li>
+            </ul>
+          </div>
+          <div class="footer__support">
+            <h3 class="heading heading_place_footer">We Support</h3>
+            <img class="footer__image-card" src="./images/secure.png" alt="Платежные системы">
+          </div>
+        </div>
+        <p class="footer__copyright page__container">Copyright 2018 CloudBudget</p>
       </div>
     </footer>
   </div>

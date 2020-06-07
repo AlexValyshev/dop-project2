@@ -1,4 +1,5 @@
 .video__right {
+  max-width: calc(((445/1110)*100%) + 33px);
   box-sizing: border-box;
   /*border: 1px solid blue;*/
   position: relative;

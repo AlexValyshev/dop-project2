@@ -1,6 +1,5 @@
 .features__card-description {
-  width: 293px;
-  height: 198px;
+  width: calc((293/350)*100%);
   box-sizing: border-box;
   padding-top: 33px;
   margin-top: -93px;

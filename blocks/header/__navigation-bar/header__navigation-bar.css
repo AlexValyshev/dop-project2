@@ -1,4 +1,5 @@
 .header__navigation-bar {
+  display: flex;
   /*border: 1px solid blue;*/
-  margin-right: 113px;
+
 }

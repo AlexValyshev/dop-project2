@@ -1,7 +1,6 @@
 .title_place_contact {
-  width: 445px;
+  min-height: 107px;
   margin: 0;
   margin-bottom: 53px;
-  font-weight: 600;
   color: #000000;
 }

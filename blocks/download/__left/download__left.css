@@ -1,6 +1,7 @@
 .download__left {
+  max-width: calc((445/1110)*100%);
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin-right: 81px;
-  margin-top: 28px;
 }

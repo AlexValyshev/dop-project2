@@ -1,5 +1,5 @@
 .text_place_contact {
-  width: 434px;
+  min-height: 64px;
   margin: 0;
   color: #000000;
 }

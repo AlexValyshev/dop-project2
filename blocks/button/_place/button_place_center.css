@@ -10,3 +10,10 @@
 .button_place_center:hover {
   color: #2f80ed;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .button_place_center {
+  width: 100px;
+  height: 35px;
+  }
+}

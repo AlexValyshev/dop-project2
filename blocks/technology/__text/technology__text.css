@@ -1,9 +1,9 @@
 .technology__text {
+  max-width: 191px;
   min-height: 51px;
-  width: 191px;
   margin: 0;
   margin-bottom: 4px;
-  font-family: Lato;
+  font-family: 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;

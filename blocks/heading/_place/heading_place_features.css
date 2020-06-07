@@ -1,6 +1,5 @@
 .heading_place_features {
-  height: 40px;
-  width: 229px;
+  max-width: 229px;
   margin: 0;
   margin-bottom: 20px;
   text-align: center;

@@ -1,6 +1,6 @@
 .download__image_style_width {
-  width: 445px;
-  height: 311px;
-  margin-left: -339px;
+  max-width: calc((445/533)*100%);
+  /* height: calc((311/533)*100%); */
+  object-fit: cover;
   z-index: 3;
 }

@@ -1,9 +1,11 @@
 .technology__image-csv {
   width: 47x;
-  height: 54px;
-  margin: 0;
-  position: absolute;
+  /*height: 54px;*/
+  margin: 0 auto;
+  margin-top: -49px;
+  margin-bottom: 14px;
+  /* position: absolute;
   top: 71px;
-  left: 104px;
-  /*border: 1px solid blue;*/
+  left: 104px; */
+  /* border: 1px solid blue; */
 }

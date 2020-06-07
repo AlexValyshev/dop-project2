@@ -1,6 +1,8 @@
 .features__image {
-  width: 350px;
-  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  /*max-width: 350px;*/
+  /*height: 250px;*/
   border-radius: 8px;
   /*border: 1px solid blue;*/
 }

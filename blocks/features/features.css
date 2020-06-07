@@ -6,12 +6,10 @@
 @import url(./__link/features__link.css);
 
 .features {
+  width: 100%;
   box-sizing: border-box;
-  padding-top: 63px;
-  padding-bottom: 124px;
+  padding-top: calc(100% - (100% - (63/1440)*100%));
+  padding-bottom: calc(100% - (100% - (124/1440)*100%));
   background: #fafafa;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
  /* border: 1px solid blue;*/
 }

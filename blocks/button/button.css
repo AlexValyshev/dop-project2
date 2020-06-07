@@ -8,10 +8,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Lato';
+  font-family: 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
   font-style: normal;
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
   /*border: 1px solid blue;*/
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .button {
+    font-size: 10px;
+    line-height: 14px;
+  }
 }

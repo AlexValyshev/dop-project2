@@ -1,5 +1,5 @@
 .contact__item {
-  height: 60px;
+  min-height: 60px;
   padding: 0;
   padding-left: 31px;
   margin: 0;
@@ -7,7 +7,7 @@
   box-sizing: border-box;
   border: 1px solid #333333;
   border-radius: 6px;
-  font-family: 'Lato';
+  font-family: 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -42,4 +42,10 @@
   font-size: 16px;
   line-height: 19px;
   color: rgba(19, 39, 67, 0.5);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .contact__item {
+    min-height: 50px;
+  }
 }

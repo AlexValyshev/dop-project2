@@ -1,6 +1,7 @@
 .technology__card {
   list-style: none;
-  width: 255px;
+  max-width: 255px;
+  width: 100%;
   margin: 0;
   margin-right: 30px;
   display: flex;
